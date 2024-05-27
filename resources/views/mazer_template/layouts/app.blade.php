@@ -86,7 +86,7 @@
             @include('mazer_template.layouts.header')
 
             {{-- @include('sweetalert::alert') --}}
-            @include('sweetalert::alert', ['cdn' => "https://cdn.jsdelivr.net/npm/sweetalert2@9"])
+            {{-- @include('sweetalert::alert', ['cdn' => "https://cdn.jsdelivr.net/npm/sweetalert2@9"]) --}}
 
             @yield('content')
 
@@ -108,7 +108,7 @@
     {{-- <script src="/assets/vendors/simple-datatables/simple-datatables.js"></script> --}}
 
     {{-- script datatable mending dibkin 1 file --}}
-    @include('mazer_template.layouts.script-datatable')
+    {{-- @include('mazer_template.layouts.script-datatable') --}}
 
 
     {{-- ck editor --}}
@@ -158,7 +158,7 @@
 
     {{-- select2 --}}
     <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
-    @include('mazer_template.layouts.select2')
+    {{-- @include('mazer_template.layouts.select2') --}}
 </body>
 
 </html>
